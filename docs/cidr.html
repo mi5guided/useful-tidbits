@@ -234,7 +234,7 @@ lChRokSpADs="];
       /* Create the bookmark hyperlink */
       var link = document.getElementById('saveLink');
       if (link) {
-        link.href = 'subnets.html?network=' + inet_ntoa(curNetwork) + '&mask=' + curMask + '&division=' + binToAscii(nodeToString(rootSubnet));
+        link.href = 'cidr.html?network=' + inet_ntoa(curNetwork) + '&mask=' + curMask + '&division=' + binToAscii(nodeToString(rootSubnet));
       }
     }
 
@@ -680,7 +680,7 @@ lChRokSpADs="];
         </form>
 
         <p>Click below to split and join subnets.<br>
-          If you wish to save this subnetting for later, bookmark <a href="subnets.html" id="saveLink">this
+          If you wish to save this subnetting for later, bookmark <a href="cidr.html" id="saveLink">this
             hyperlink</a>.</p>
 
       </td>
